@@ -11,13 +11,11 @@
 
 ## The Assisted Diagnosis IT System of Periodontal Disease 
 (Cooperate with a Doctor from Peking University)
+
+### Keywords
 >Project keywords: BigData, Machine Learning, Information System, Web application
 
 >Technical keywords: Zeppelin, Spark, pySpark, Flask, Linux, DevOps
-
-[Source Code of web application part](https://github.com/XinyaoTian/dentist_demo)
-
-[Project Delivery PPT(in Chinese)](https://github.com/XinyaoTian/project_introduction/blob/master/ppt/pku_dentist/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B%E5%B1%95%E7%A4%BA%E7%89%99%E5%91%A8%E7%97%85%E6%B2%BB%E7%96%97%E6%96%B9%E6%A1%88%E7%96%97%E6%95%88%E9%A2%84%E6%B5%8B.pptx?raw=true)
 
 ### A Brief Introduction of the Project
 
@@ -44,38 +42,51 @@ Project Show - the web page of predicted results by the ML models
 
 作为本项目的负责人，我还荣幸地成为了该博士论文的作者之一。该论文已投稿给国内某顶级医疗领域期刊，有望在明年发表。
 
+### Project References
+[Source Code of web application part](https://github.com/XinyaoTian/dentist_demo)
 
-## 清华大学 - 数据科学研究院 “ 2018 年度顶级数据团队建设全景报告” 合作项目
->项目关键词: 数据分析、网络数据抓取、数据可视化
+[Project Delivery PPT (in Chinese) ](https://github.com/XinyaoTian/project_introduction/blob/master/ppt/pku_dentist/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B%E5%B1%95%E7%A4%BA%E7%89%99%E5%91%A8%E7%97%85%E6%B2%BB%E7%96%97%E6%96%B9%E6%A1%88%E7%96%97%E6%95%88%E9%A2%84%E6%B5%8B.pptx?raw=true)
 
+
+## Top Data Team Building Panorama Report of the Year 2018
+(Cooperate with the Institute of Data Science, Tsinghua University)
+
+### Keywords
+
+>Project Keywords: Data Analysing, Web Crawler, Data Visualization
+
+>Technical Keywords: Scrapy, Pandas, Matplotlib, Hdfs, MongoDB
+
+### A Brief Introduction of the Project
+
+本项目及其发布会由清华大学数据科学研究院主办，《大数据文摘》协办。其团队组成主要由以下四个团队所组成：负责获取数据的“爬虫团队”，负责分析数据的“分析团队”，负责撰写文章及采访各位业内大牛的“媒体团队”和负责版面设计、印刷及发布会的“设计团队”。团队总人数多达数十人。
+
+### Mainly Description of the Project
+
+在该项目中，我同时担任了“分析团队”的主要负责人和“爬虫团队”的主要负责人。在“爬虫团队”中，由于该团队总人数达 13 人之多，为了统一数据格式、避免数据过于混乱，我主要承担了拟定“爬虫数据获取维度及规范”的工作，用于规范数据格式并使之符合发布需求；同时，我还单独负责获取“智联招聘”网站上有关数据岗位的职位信息。在“分析团队”中，结合获取到的数据，我负责选定分析工具( 选用 pandas 工具库，并自己对于 jieba 做了一层封装供组员快速使用 )、组织并协调分析团队的成员、拟定哪些维度需要分析并明确分析目的；同时我还与“设计团队”的成员多次开会，讨论设计方案的可行性、明确“分析团队”的分析结果输出格式等。
+
+### Project Outcomes
+
+Cover Page of the Report
+![发布会主视觉图](./figures/tsinghua_data/cover.png)
+
+Data Analysing - in Public View: Who will be responsible for the moral problems with AI and Big Data?
+![in Public View: Who will be responsible for the moral problems with AI and Big Data?](./figures/tsinghua_data/barchart_1.png)
+
+Data Analysing - Comparison of the main demand of skills between Chinese universities and companies
+![Comparison of the main demand of skills between Chinese universities and companies](./figures/tsinghua_data/wordPic.png)
+
+### Project Achievements
+
+在团队全体成员连续三周的努力下，“ 2018 年度顶级数据团队建设全景报告” 于 2018 年 9 月 26 日在清华大学数据科学研究院报告厅成功发布，发布会现场气氛热烈。在本报告发布后，包括“机器之心”、“数据堂”、“数据派”、“上海大数据联盟”、“数字人才”( 当然也包括“大数据文摘” )在内的数十个公众号( 包括十余个百万量级的公众号 )在当日或次日也立即进行了转载；科技圈公众号被同一份报告如此大规模“屠版”的现象实属罕见。
+
+### Project References
 [合作媒体发布-大数据文摘](https://mp.weixin.qq.com/s/FSgPY1Q0qBtL8bJQ1GYb-A)
 
 [“清华2018顶级数据团队建设全景报告-摘要版”  附“精华版”下载链接](https://t.cj.sina.com.cn/articles/view/6105753431/16bee675701900bt98)
 
-ps: 也可谷歌或百度搜索“2018 年度顶级数据团队建设全景报告”，数十家科技媒体争先报道。
-
-### 项目简介
-
-本项目及其发布会由清华大学数据科学研究院主办，《大数据文摘》协办。其团队组成主要由以下四个团队所组成：负责获取数据的“爬虫团队”，负责分析数据的“分析团队”，负责撰写文章及采访各位业内大牛的“媒体团队”和负责版面设计、印刷及发布会的“设计团队”。团队总人数多达数十人。
-
-### 项目经历
-
-在该项目中，我同时担任了“分析团队”的主要负责人和“爬虫团队”的主要负责人。在“爬虫团队”中，由于该团队总人数达 13 人之多，为了统一数据格式、避免数据过于混乱，我主要承担了拟定“爬虫数据获取维度及规范”的工作，用于规范数据格式并使之符合发布需求；同时，我还单独负责获取“智联招聘”网站上有关数据岗位的职位信息。在“分析团队”中，结合获取到的数据，我负责选定分析工具( 选用 pandas 工具库，并自己对于 jieba 做了一层封装供组员快速使用 )、组织并协调分析团队的成员、拟定哪些维度需要分析并明确分析目的；同时我还与“设计团队”的成员多次开会，讨论设计方案的可行性、明确“分析团队”的分析结果输出格式等。
-
-### 项目成果展示
-
-发布会主视觉图
-![发布会主视觉图](./figures/tsinghua_data/cover.png)
-
-数据分析-谁该为大数据及人工智能的道德问题负责？
-![谁该为大数据及人工智能的道德问题负责?](./figures/tsinghua_data/barchart_1.png)
-
-数据分析-高校与公司的技能需求关键词对比
-![高校与公司的技能需求关键词对比](./figures/tsinghua_data/wordPic.png)
-
-### 项目后续及影响
-
-在团队全体成员连续三周的努力下，“ 2018 年度顶级数据团队建设全景报告” 于 2018 年 9 月 26 日在清华大学数据科学研究院报告厅成功发布，发布会现场气氛热烈。在本报告发布后，包括“机器之心”、“数据堂”、“数据派”、“上海大数据联盟”、“数字人才”( 当然也包括“大数据文摘” )在内的数十个公众号( 包括十余个百万量级的公众号 )在当日或次日也立即进行了转载；科技圈公众号被同一份报告如此大规模“屠版”的现象实属罕见。
+ps: If you're interested in content of the report, please google the keyword "2018 年度顶级数据团队建设全景报告".
+There are many Chinese medias reported our research.
 
 ## 北京师范大学 - "DataSciCamp" 数据科学家信息收集门户网站
 
