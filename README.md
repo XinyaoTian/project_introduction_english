@@ -4,7 +4,7 @@
 - Xinyao Tian ( Richard Tian )
 - mobile number(AU): (+61) 0457 512 404
 - mobile number(CH): (+86) 13311369059
-- Email: richardtian1024@gmail.com
+- Email: richardtian1024@gmail.com || leontian1024@gmail.com
 - CSDN technical Blog: https://blog.csdn.net/weixin_38070561
 - Zhihu technical Blog: https://www.zhihu.com/people/winchester-26/activities
 - Github: https://github.com/XinyaoTian
@@ -48,7 +48,7 @@ Project Show - the web page of predicted results by the ML models
 [Project Delivery PPT (in Chinese) ](https://github.com/XinyaoTian/project_introduction/blob/master/ppt/pku_dentist/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B%E5%B1%95%E7%A4%BA%E7%89%99%E5%91%A8%E7%97%85%E6%B2%BB%E7%96%97%E6%96%B9%E6%A1%88%E7%96%97%E6%95%88%E9%A2%84%E6%B5%8B.pptx?raw=true)
 
 
-## Top Data Team Building Panorama Report of the Year 2018
+## Research Report: A Road Map to a Top Data-driven enterprise of the Year 2018
 (Cooperate with the Institute of Data Science, Tsinghua University)
 
 ### Keywords
@@ -81,6 +81,7 @@ Data Analysing - Comparison of the main demand of skills between Chinese univers
 在团队全体成员连续三周的努力下，“ 2018 年度顶级数据团队建设全景报告” 于 2018 年 9 月 26 日在清华大学数据科学研究院报告厅成功发布，发布会现场气氛热烈。在本报告发布后，包括“机器之心”、“数据堂”、“数据派”、“上海大数据联盟”、“数字人才”( 当然也包括“大数据文摘” )在内的数十个公众号( 包括十余个百万量级的公众号 )在当日或次日也立即进行了转载；科技圈公众号被同一份报告如此大规模“屠版”的现象实属罕见。
 
 ### Project References
+
 [合作媒体发布-大数据文摘](https://mp.weixin.qq.com/s/FSgPY1Q0qBtL8bJQ1GYb-A)
 
 [“清华2018顶级数据团队建设全景报告-摘要版”  附“精华版”下载链接](https://t.cj.sina.com.cn/articles/view/6105753431/16bee675701900bt98)
@@ -88,40 +89,50 @@ Data Analysing - Comparison of the main demand of skills between Chinese univers
 ps: If you're interested in content of the report, please google the keyword "2018 年度顶级数据团队建设全景报告".
 There are many Chinese medias reported our research.
 
-## 北京师范大学 - "DataSciCamp" 数据科学家信息收集门户网站
+## "DataSciCamp" A website dedicated for Data Scientists - Almost 1.5K stars in Github!
+(Cooperate with a Doctor from Beijing Normal University)
 
->项目关键词: Web 设计与开发、数据科学、微服务架构
+### Keywords
+>Project Keywords: Web Design & develop, Data Science, micro service architecture(Service Mesh)
 
-[DataSciCamp 网站首页](https://iphysresearch.github.io/DataSciComp/)
+>Technical Keywords: Flask, Docker, Kubernetes(K8S), Istio, IaaS
 
-### 项目简介
+### A Brief Introduction of the Project
 
 本项目的落地产品是可供高校老师和同学们获取和共享最新的竞赛信息、并分享解决思路的门户网站。
 
 项目创新点主要集中在利用 "微服务架构" 实现了传统 Web 项目的开发。、
 
 
-### 项目经历
+### Mainly Description of the Project
 
 本项目于 2019 年 7 月 29 日立项。
 截止 2019 年 9 月 20 日，我与我的团队使用微服务架构已经完成了网站绝大部分功能的设计与实现。
 使用微服务架构，我们不仅极大地简化了网站的部署和运维工作，并且协作成本极大降低，沟通效率大幅度提升。
 本项目的最终版本"DataSciCamp 1.0"预计将于 2019 年 10 月 1 日正式上线，届时欢迎各位老师和同学进入新版本，感受全新的用户体验。
 
-### 项目成果及展示
+### Project Outcomes
 
-DataSciCamp 测试版本-网站首页
+DataSciCamp Main Page - Older version
 ![DataSciCamp 测试版本-网站首页](./figures/datascicamp/frontPage.png)
 
-DataSciCamp 新版本-登陆页面
+DataSciCamp Main Page - the Newest version
 ![DataSciCamp 新版本-登陆页面](./figures/datascicamp/login.png)
 
-DataSciCamp 主要贡献者名单
+DataSciCamp - Main Contributors List
 ![DataSciCamp 主要贡献者名单](./figures/datascicamp/about-us.png)
 
-### 项目后续及影响
+### Project Achievements
 
 本项目为 Github 上的开源项目。截止目前，我们已经收获了 1500 多个 Stars 以及无数老师、学生和软件开发者们的热情反馈。
+
+### Project References
+
+[DataSciCamp Website (the Newest version)](https://www.datascicamp.com)
+
+[DataSciCamp Website (Older version)](https://iphysresearch.github.io/DataSciComp?sub=PF,AC,DM,CV,NLP,RL,SP)
+
+[DataSciCamp Github Repository (Older version)](https://github.com/iphysresearch/DataSciComp)
 
 
 ### 中国科学院软件研究所 - 基于 Kubernetes 的微服务监控数据可视化项目
