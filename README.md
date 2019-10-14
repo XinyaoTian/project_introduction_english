@@ -135,37 +135,43 @@ DataSciCamp - Main Contributors List
 [DataSciCamp Github Repository (Older version)](https://github.com/iphysresearch/DataSciComp)
 
 
-### 中国科学院软件研究所 - 基于 Kubernetes 的微服务监控数据可视化项目
+## The Design and Implementation of a Micro-service Visualization, Operation and Monitoring System
+(Internship in Institute of Software Chinese Academy of Science)
 
-> 项目关键词: 基础架构、微服务架构、运行监测系统
+### Keywords
+>Project Keywords: Basic Architecture, micro service architecture(Service Mesh), DevOps System
 
-[中科院软件所"微服务小组" Github 组织主页链接](https://github.com/iscas-microservice-team)
+>Technical Keywords: IaaS, Docker, Kubernetes(K8S), Istio
 
-### 项目简介
+### A Brief Introduction of the Project
 
 本项目组的主要工作是基于 Kubernetes 研究及开发某互联网企业的自用云服务平台( 类似“阿里云”、“腾讯云”等 )并按时交付。作为项目组的一员，我主要负责研究“微服务架构如何应用在 Kubernetes 集群”以及设计实现 Docker 容器监控云件及模块。
 
-### 项目经历
+### Mainly Description of the Project
 
 在该项目的研究中，我查阅并翻译了数篇外文博客及外文开发文档，在自己得到提高的同时也为中文开发社区贡献了便利和价值( 翻译文章见: [Envoy 、 Nginx 和 HAProxy，微服务中的通信代理该如何抉择? 翻译自英文博客](https://zhuanlan.zhihu.com/p/53470343) ，首发于掘金翻译计划 )。
 
 技术选型方面，我使用了“服务网格(  Service Mesh )”架构来代替较为流行的“ Spring Cloud 框架”进行监控模块的设计。
 目前该模块的进度已经可以监测到每一个微服务之间的调用关系( 基于 Istio 的 Sidecar 模式和 L4 、 L7 代理 )，以及可视化展现多种常用监测指标( 如 CPU 利用率、网络延迟等，基于 Prometheus 和 Grafana )。
 
-### 项目成果及展示
+### Project Outcomes
 
-项目架构宏观设计图
+Design of the System Architecture
 ![项目架构宏观设计图](./figures/iscca-ms/arch_design.png)
 
-资源监控面板-实例 1
-![资源监控面板-实例 1](./figures/iscca-ms/monitor_panel.png)
+Resource Monitoring Panel(Using Grafana) - Sample No.1
+![Resource Monitoring Panel 1](./figures/iscca-ms/monitor_panel.png)
 
-资源监控面板-实例 2
-![资源监控面板-实例 2](./figures/iscca-ms/monitor_panel2.png)
+Resource Monitoring Panel(Using Grafana) - Sample No.2
+![Resource Monitoring Panel 2](./figures/iscca-ms/monitor_panel2.png)
 
-### 项目后续及影响
+### Project Achievements
 
 项目负责人，中科院的博士生导师张文博教授和硕士生导师王焘教授对我的工作非常满意。
+
+### Project References
+
+[Github Organization of Micro service Team in ISCAS](https://github.com/iscas-microservice-team)
 
 
 ## The End
