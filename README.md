@@ -1,6 +1,7 @@
-# List of My Projects
+# Introduction of my Projects
 
 ## Contact Me!
+![My figure](./figures/figure_me.jpg)
 - Xinyao Tian ( Richard Tian )
 - mobile number(AU): (+61) 0457 512 404
 - mobile number(CH): (+86) 13311369059
@@ -8,6 +9,9 @@
 - CSDN technical Blog: https://blog.csdn.net/weixin_38070561
 - Zhihu technical Blog: https://www.zhihu.com/people/winchester-26/activities
 - Github: https://github.com/XinyaoTian
+
+
+# List of My Projects
 
 ## The Assisted Diagnosis IT System of Periodontal Disease 
 (Cooperate with a Doctor from Peking University)
@@ -19,11 +23,15 @@
 
 ### A Brief Introduction of the Project
 
-近年来，大数据的跨领域研究受到热烈追捧。本项目由北京大学一名研究牙周病的医学博士发起，提供近 20 年来其部门医师出诊时通过临床诊断所收集到的 170 余万条(经过脱敏)真实牙周病病例的牙位点数据( 共 27 个维度 )，并由我所带领的团队负责机器学习的训练建模部分( 包括数据清洗、预处理、可视化、机器学习建模、模型调参及验证、模型导出及持久化 )的模型构建工作，以及开发一个具有“输入新的病人数据并预测其牙周病严重程度”功能的 Web 服务信息系统原型。
+In recent years, cross-domain research on big data has been enthusiastically sought after. 
+The project was initiated by a medical doctor who studied periodontal disease at Peking University and provided more than 1.7 million (desensitized, 27 dimensions as total) true periodontal disease cases collected by clinical diagnosis in the departmental physicians during the past 20 years. 
+The team I lead is responsible for the training modeling part of machine learning (including data cleaning, preprocessing, visualization, machine learning modeling, model tuning and validation, model export and persistence) Model building work and development of a Web services information system prototype with the ability to "enter new patient data and predict the severity of periodontal disease."
 
 ### Mainly Description of the Project
 
-技术选型方面，模型训练平台我选用的是 Zeppelin，配合底层的 Spark 和 pyspark 工具库可以达到非常优秀的可视化和实时交流协作的目的。几乎每次跑完一个模型，我都可以立刻使用 Zeppelin 将网格搜索交叉验证的结果向博士在线汇报，这种频繁的“汇报-改进”模式能够及时发现问题并立刻作出修改，极大地避免了“开发和需求偏差过大”的风险。Web 服务方面，由于是开发演示版 Demo ，对性能要求不高，且需求较为明确，因此本人选用基于 Python 的 Flask 框架，简单易用，加快开发进度。Web 服务通过 pyspark 调用存储在 hdfs 上训练好的模型来实现“新值预测”的功能。
+In terms of technical selection, I chose Zeppelin as the model training platform. With the underlying Spark and pyspark tool libraries, I can achieve excellent visualization and real-time communication and collaboration. 
+Almost every time I run a model, I can immediately use Zeppelin to report the results of grid search cross-validation to Dr. Online. This frequent “report-improvement” mode can detect problems in time and make changes immediately, greatly avoiding them. The risk of “development and demand deviations are too large”. 
+In terms of Web services, since it is a demo version of Demo, it has low performance requirements and clear requirements. Therefore, I chose the Python-based Flask framework, which is easy to use and speeds up the development process. The Web service implements the "new value prediction" function by calling the model trained on hdfs through pyspark.
 
 ### Project Outcomes
 
@@ -59,16 +67,16 @@ Project Show - the web page of predicted results by the ML models
 
 ### A Brief Introduction of the Project
 
-本项目及其发布会由清华大学数据科学研究院主办，《大数据文摘》协办。其团队组成主要由以下四个团队所组成：负责获取数据的“爬虫团队”，负责分析数据的“分析团队”，负责撰写文章及采访各位业内大牛的“媒体团队”和负责版面设计、印刷及发布会的“设计团队”。团队总人数多达数十人。
+The project and its conference were hosted by the Institute of Data Science, Tsinghua University and co-organized by Big Data Digest. The team consists of the following four teams: the “crawler team” responsible for obtaining data, the “analysis team” responsible for analyzing the data, the author of writing articles and interviewing the “media team” of the industry’s big cattle and responsible for layout design and printing. And the "design team" of the conference. The total members of teams is up to dozens.
 
 ### Mainly Description of the Project
 
-在该项目中，我同时担任了“分析团队”的主要负责人和“爬虫团队”的主要负责人。在“爬虫团队”中，由于该团队总人数达 13 人之多，为了统一数据格式、避免数据过于混乱，我主要承担了拟定“爬虫数据获取维度及规范”的工作，用于规范数据格式并使之符合发布需求；同时，我还单独负责获取“智联招聘”网站上有关数据岗位的职位信息。在“分析团队”中，结合获取到的数据，我负责选定分析工具( 选用 pandas 工具库，并自己对于 jieba 做了一层封装供组员快速使用 )、组织并协调分析团队的成员、拟定哪些维度需要分析并明确分析目的；同时我还与“设计团队”的成员多次开会，讨论设计方案的可行性、明确“分析团队”的分析结果输出格式等。
+In this project, I also served as the main person in charge of the “Crawler Team” and the main person in charge of the “Analysis Team”. In the “Crawler Team”, since the total number of the team was as many as 13 people, in order to unify the data format and avoided excessive data confusion, I mainly undertook the work of drafting the crawler data acquisition dimension and specification to standardize the data format. To make data structure meet the release requirements; at the same time, I was also solely responsible for obtaining job information about the data positions on the Zhilian Recruitment website. In the “Analysis Team”, combined with the acquired data, I was responsible for selecting the analysis tools (using the Pandas tool library and self-packaging jieba for the team members to use quickly), organizing and coordinating the members of the analysis team, and drafting Which dimensions need to be analyzed and the purpose of the analysis is clear; at the same time, I also meet with the members of the “Design Team” several times to discuss the feasibility of the design plan and to clarify the output format of the analysis results of the “Analysis Team”.
 
 ### Project Outcomes
 
 Cover Page of the Report
-![发布会主视觉图](./figures/tsinghua_data/cover.png)
+![Cover Page of the Report](./figures/tsinghua_data/cover.png)
 
 Data Analysing - in Public View: Who will be responsible for the moral problems with AI and Big Data?
 ![in Public View: Who will be responsible for the moral problems with AI and Big Data?](./figures/tsinghua_data/barchart_1.png)
@@ -78,15 +86,15 @@ Data Analysing - Comparison of the main demand of skills between Chinese univers
 
 ### Project Achievements
 
-在团队全体成员连续三周的努力下，“ 2018 年度顶级数据团队建设全景报告” 于 2018 年 9 月 26 日在清华大学数据科学研究院报告厅成功发布，发布会现场气氛热烈。在本报告发布后，包括“机器之心”、“数据堂”、“数据派”、“上海大数据联盟”、“数字人才”( 当然也包括“大数据文摘” )在内的数十个公众号( 包括十余个百万量级的公众号 )在当日或次日也立即进行了转载；科技圈公众号被同一份报告如此大规模“屠版”的现象实属罕见。
+With the efforts of all the members of the team for three consecutive weeks, the "A Road Map to a Top Data-driven enterprise of the Year 2018" was successfully released on 26th, Sep., 2018 in the lecture hall of the the Institute of Data Science, Tsinghua University. The atmosphere of the conference was warm. After the release of this report, A number of technological media immediately reprinted on the same day or the next day; it is rare for the public media of the technology circle to be so "stained" by the same report.
 
 ### Project References
 
-[合作媒体发布-大数据文摘](https://mp.weixin.qq.com/s/FSgPY1Q0qBtL8bJQ1GYb-A)
+[Our report on Big Data Digest](https://mp.weixin.qq.com/s/FSgPY1Q0qBtL8bJQ1GYb-A)
 
-[“清华2018顶级数据团队建设全景报告-摘要版”  附“精华版”下载链接](https://t.cj.sina.com.cn/articles/view/6105753431/16bee675701900bt98)
+[The Research Report Downloading link](https://t.cj.sina.com.cn/articles/view/6105753431/16bee675701900bt98)
 
-ps: If you're interested in content of the report, please google the keyword "2018 年度顶级数据团队建设全景报告".
+ps: If you're interested in content of the report, please google the keyword "2018 年度顶级数据团队建设全景报告"(in Chinese).
 There are many Chinese medias reported our research.
 
 ## "DataSciCamp" A website dedicated for Data Scientists - Almost 1.5K stars in Github!
@@ -99,32 +107,32 @@ There are many Chinese medias reported our research.
 
 ### A Brief Introduction of the Project
 
-本项目的落地产品是可供高校老师和同学们获取和共享最新的竞赛信息、并分享解决思路的门户网站。
+The landing product of this project is a web application for college teachers and students to obtain and share the latest competition information and share solutions.
 
-项目创新点主要集中在利用 "微服务架构" 实现了传统 Web 项目的开发。、
+The innovation of this project focuses on the improvement of traditional Web projects using a new software architecture called "micro service architecture".
 
 
 ### Mainly Description of the Project
 
-本项目于 2019 年 7 月 29 日立项。
-截止 2019 年 9 月 20 日，我与我的团队使用微服务架构已经完成了网站绝大部分功能的设计与实现。
-使用微服务架构，我们不仅极大地简化了网站的部署和运维工作，并且协作成本极大降低，沟通效率大幅度提升。
-本项目的最终版本"DataSciCamp 1.0"预计将于 2019 年 10 月 1 日正式上线，届时欢迎各位老师和同学进入新版本，感受全新的用户体验。
+The project was established on 29th, July, 2019.
+As of 20th, September, 2019, my team and I have completed the design and implementation of most of the features of the website using the microservices architecture.
+Using the microservices architecture, we not only greatly simplified the deployment and operation of the website, but also greatly reduced the cost of collaboration and greatly improved communication efficiency.
+The final version of the project, "DataSciCamp 1.0", is expected to be officially launched on 1st, October, 2019. Teachers and students are welcome to enter the new version and have a new user experience.
 
 ### Project Outcomes
 
 DataSciCamp Main Page - Older version
-![DataSciCamp 测试版本-网站首页](./figures/datascicamp/frontPage.png)
+![DataSciCamp Main Page - Older version](./figures/datascicamp/frontPage.png)
 
 DataSciCamp Main Page - the Newest version
-![DataSciCamp 新版本-登陆页面](./figures/datascicamp/login.png)
+![DataSciCamp Main Page - the Newest version](./figures/datascicamp/login.png)
 
 DataSciCamp - Main Contributors List
-![DataSciCamp 主要贡献者名单](./figures/datascicamp/about-us.png)
+![DataSciCamp - Main Contributors List](./figures/datascicamp/about-us.png)
 
 ### Project Achievements
 
-本项目为 Github 上的开源项目。截止目前，我们已经收获了 1500 多个 Stars 以及无数老师、学生和软件开发者们的热情反馈。
+This project is an open source project on Github. To date, we have received more than 1,500 Stars and enthusiastic feedback from countless teachers, students and software developers.
 
 ### Project References
 
