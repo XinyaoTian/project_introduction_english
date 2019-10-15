@@ -46,14 +46,16 @@ Project Show - the web page of predicted results by the ML models
 
 ### Project Achievements
 
-项目完成后，博士和公司领导对我的工作给予高度评价；我开发的 Web 服务演示版在答辩时获得了专家组老师们的青睐，有一名专家甚至多次输入了牙位点的各种数值，并将预测结果与其实际临床经验对比，发现仅有微小出入，但是系统的诊断时间只有 5 秒，是传统诊断流程所耗费时间的百分之一，于是便对本系统和机器学习模型产生了浓厚兴趣。
+After the completion of the project, the doctoral and company leaders highly praised my work; the demo version of the Web service I developed was favored by the professors of the expert group during the defense. One professor even entered the values of the dental site many times. Comparing the predicted results with their actual clinical experience, the professor found that there is only a slight discrepancy, but the system's diagnosis time is only 5 seconds, which is only one percent of the time spent on the traditional diagnostic process, so it has a strong impact on the system and the machine learning model. The professor was really interested about my models and system.
 
-作为本项目的负责人，我还荣幸地成为了该博士论文的作者之一。该论文已投稿给国内某顶级医疗领域期刊，有望在明年发表。
+As the person in charge of this project, I am also honored to be one of the authors of the doctoral thesis. The paper has been submitted to a top medical journal in China and is expected to be published next year.
 
 ### Project References
 [Source Code of web application part](https://github.com/XinyaoTian/dentist_demo)
 
 [Project Delivery PPT (in Chinese) ](https://github.com/XinyaoTian/project_introduction/blob/master/ppt/pku_dentist/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B%E5%B1%95%E7%A4%BA%E7%89%99%E5%91%A8%E7%97%85%E6%B2%BB%E7%96%97%E6%96%B9%E6%A1%88%E7%96%97%E6%95%88%E9%A2%84%E6%B5%8B.pptx?raw=true)
+
+[Internship Certification in English](./materials/internship_wedata.pdf)
 
 
 ## Research Report: A Road Map to a Top Data-driven enterprise of the Year 2018
@@ -153,19 +155,19 @@ This project is an open source project on Github. To date, we have received more
 
 ### A Brief Introduction of the Project
 
-本项目组的主要工作是基于 Kubernetes 研究及开发某互联网企业的自用云服务平台( 类似“阿里云”、“腾讯云”等 )并按时交付。作为项目组的一员，我主要负责研究“微服务架构如何应用在 Kubernetes 集群”以及设计实现 Docker 容器监控云件及模块。
+The main work of this project team is based on Kubernetes research and development of a self-use cloud service platform for Internet companies (similar to "Alibaba Cloud", "Tencent Cloud", etc.) and delivered on time. As a member of the project team, I am mainly responsible for researching how micro service architectures are applied to Kubernetes clusters and designing and implementing Docker container monitoring cloudware and modules.
 
 ### Mainly Description of the Project
 
-在该项目的研究中，我查阅并翻译了数篇外文博客及外文开发文档，在自己得到提高的同时也为中文开发社区贡献了便利和价值( 翻译文章见: [Envoy 、 Nginx 和 HAProxy，微服务中的通信代理该如何抉择? 翻译自英文博客](https://zhuanlan.zhihu.com/p/53470343) ，首发于掘金翻译计划 )。
+In the research of this project, I reviewed and translated several foreign language blogs and foreign language development documents, and contributed convenience and value to the Chinese development community while improving myself. (For translation articles, see: [Envoy, Nginx and HAProxy, micro How to choose a communication agent in the service? Translated from English blog](https://zhuanlan.zhihu.com/p/53470343), first published in the Nuggets translation plan).
 
-技术选型方面，我使用了“服务网格(  Service Mesh )”架构来代替较为流行的“ Spring Cloud 框架”进行监控模块的设计。
-目前该模块的进度已经可以监测到每一个微服务之间的调用关系( 基于 Istio 的 Sidecar 模式和 L4 、 L7 代理 )，以及可视化展现多种常用监测指标( 如 CPU 利用率、网络延迟等，基于 Prometheus 和 Grafana )。
+In terms of technology selection, I used the "Service Mesh" architecture to replace the more popular "Spring Cloud Framework" for monitoring module design.
+At present, the progress of the module can monitor the call relationship between each micro service (Istio-based Sidecar mode and L4, L7 agent), and visualize various common monitoring indicators (such as CPU utilization, network delay, etc., based on Prometheus and Grafana).
 
 ### Project Outcomes
 
 Design of the System Architecture
-![项目架构宏观设计图](./figures/iscca-ms/arch_design.png)
+![Design of the System Architecture](./figures/iscca-ms/arch_design.png)
 
 Resource Monitoring Panel(Using Grafana) - Sample No.1
 ![Resource Monitoring Panel 1](./figures/iscca-ms/monitor_panel.png)
@@ -175,11 +177,13 @@ Resource Monitoring Panel(Using Grafana) - Sample No.2
 
 ### Project Achievements
 
-项目负责人，中科院的博士生导师张文博教授和硕士生导师王焘教授对我的工作非常满意。
+The project leader, Professor Zhang Wenbo, a doctoral tutor at the Chinese Academy of Sciences, and Professor Wang Wei, a master tutor, are very satisfied with my work.
 
 ### Project References
 
 [Github Organization of Micro service Team in ISCAS](https://github.com/iscas-microservice-team)
+
+[Internship Certification in English](./materials/internship_iscas.pdf)
 
 
 ## The Online Factory Management System 
