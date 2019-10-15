@@ -2,13 +2,19 @@
 
 ## Contact Me!
 ![My figure](./figures/figure_me.jpg)
-- Xinyao Tian ( Richard Tian )
+
+- 
+- Chinese Name: Xinyao Tian
+- English Name: Richard Tian
+- Gender: Male
+- Birthday: 19th / May / 1997
 - mobile number(AU): (+61) 0457 512 404
 - mobile number(CH): (+86) 13311369059
 - Email: richardtian1024@gmail.com || leontian1024@gmail.com
 - CSDN technical Blog: https://blog.csdn.net/weixin_38070561
 - Zhihu technical Blog: https://www.zhihu.com/people/winchester-26/activities
 - Github: https://github.com/XinyaoTian
+- 
 
 # List of My Projects
 
