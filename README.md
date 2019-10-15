@@ -174,6 +174,60 @@ Resource Monitoring Panel(Using Grafana) - Sample No.2
 [Github Organization of Micro service Team in ISCAS](https://github.com/iscas-microservice-team)
 
 
+## The Online Factory Management System 
+(for small & medium factories to manage their employees info and devices data)
+
+### Keywords
+>Project keywords: Web Application, Information System, Enterprise Software, Service Mesh
+
+>Technical keywords: Flask, Docker, Kubernetes(K8S), Istio, PostgreSQL, MongoDB
+
+### A Brief Introduction of the Project
+
+This management system is developed for some small-scaled factories.
+The main purpose of this system is to help the factories manage their employees, store & share enterprise data and also analyse them.
+Based on the micro service architecture (which we also called 'ServiceMesh' now), each module of the whole system is running in containers.
+As a result, the architecture of the system is extremely clear and the whole system is easy to iteration, highly cohesion and totally decoupling.
+
+### Mainly Description of the Project
+
+When developing this management system, we had a five-members team and I was the leader of the team.
+As a software engineer, I deeply knew the importance of understanding the real demands of our system users.
+Hence, in the first fortnight of the iteration cycle, all of team members went to the factory and worked with the workers all the days
+to totally realize the situation of the factory and tried to find out what was the real demands.
+
+Then, we tried to paint the use case diagrams, class diagrams and other diagrams(like sequence diagrams etc.) to clarify the demands.
+
+After that, we divided the whole system to several parts and unified the REST-API between modules. We also divided our team to two groups -- 
+three members for coding and two members still stayed in the factory in order to keep communication between coding group and the manager of the factory.
+
+### Project Outcomes
+
+The FrontPage of the System (Auto-translated by Chrome)
+![The FrontPage of the System](./figures/factory_app/FrontPage.png)
+
+Project Show - the role "system administer" home page UI
+![the system administer's home page UI](./figures/factory_app/system_admin_view.png)
+
+Project Show - the role "employee" info-searching UI 
+![Project Show - the role "employee" info-searching UI](./figures/factory_app/employee_view.png)
+
+The Account table in PostgreSQL DB
+![The Account table in PostgreSQL DB](./figures/factory_app/Account_DB.png)
+
+### Project Achievements
+
+The factory is now using our system in their daily working. The feedback from workers is pretty good.
+
+"It's almost the most useful enterprise system I've used yet!" Said by a senior worker from that factory.
+
+
+### Project References
+[Source Code of web application part](https://github.com/chenjiaqi-factory-project)
+
+[Website for demonstration (in Chinese)](http://182.92.119.168:80/)
+
+
 ## The End
 Thanks for your reading.
 
