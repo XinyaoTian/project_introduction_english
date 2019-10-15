@@ -9,13 +9,8 @@
 - CSDN technical Blog: https://blog.csdn.net/weixin_38070561
 - Zhihu technical Blog: https://www.zhihu.com/people/winchester-26/activities
 - Github: https://github.com/XinyaoTian
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 # List of My Projects
-
 
 ## "DataSciCamp" A website dedicated for Data Scientists - More than 1.5K stars in Github!
 (Cooperate with a Doctor from Beijing Normal University)
