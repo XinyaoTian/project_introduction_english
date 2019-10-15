@@ -105,7 +105,7 @@ As the person in charge of this project, I am also honored to be one of the auth
 
 [Project Delivery PPT (in Chinese) ](https://github.com/XinyaoTian/project_introduction/blob/master/ppt/pku_dentist/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%9E%E8%B7%B5%E8%AF%BE%E7%A8%8B%E5%B1%95%E7%A4%BA%E7%89%99%E5%91%A8%E7%97%85%E6%B2%BB%E7%96%97%E6%96%B9%E6%A1%88%E7%96%97%E6%95%88%E9%A2%84%E6%B5%8B.pptx?raw=true)
 
-[Internship Certification in English](./materials/internship_wedata.pdf)
+[Internship Certification in English](https://github.com/XinyaoTian/project_introduction_english/blob/master/materials/internship_wedata.pdf)
 
 
 
@@ -242,7 +242,7 @@ The project leader, Professor Zhang Wenbo, a doctoral tutor at the Chinese Acade
 
 [Github Organization of Micro service Team in ISCAS](https://github.com/iscas-microservice-team)
 
-[Internship Certification in English](./materials/internship_iscas.pdf)
+[Internship Certification in English](https://github.com/XinyaoTian/project_introduction_english/blob/master/materials/internship_iscas.pdf)
 
 
 ## The End
