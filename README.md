@@ -1,5 +1,8 @@
 # Introduction of my Projects
 
+## Academic Transcript
+![Academic Transcript](./figures/academic_transcript.pdf)
+
 ## Contact Me!
 ![My figure](./figures/figure_me.jpg)
 
@@ -30,7 +33,7 @@
 
 The landing product of this project is a web application for college teachers and students to obtain and share the latest competition information and share solutions.
 
-The innovation of this project focuses on the improvement of traditional Web projects using a new software architecture called "micro service architecture".
+The innovation of this project focuses on the improvement of traditional Web projects using a new software architecture called "microservice architecture".
 
 
 ### Mainly Description of the Project
