@@ -1,7 +1,7 @@
 # Introduction of my Projects
 
 ## Academic Transcript
-![Academic Transcript](./figures/academic_transcript.pdf)
+[Academic Transcript](./figures/academic_transcript.pdf)
 
 ## Contact Me!
 ![My figure](./figures/figure_me.jpg)
